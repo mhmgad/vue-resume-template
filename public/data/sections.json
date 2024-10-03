@@ -22,6 +22,8 @@
     ],
 
     "sections": [
+
+        
         {
             "id": "about",
             "categoryId": "home",
@@ -29,6 +31,14 @@
             "jsonPath": "data/sections/cover.json",
             "faIcon": "fa-solid fa-address-card",
             "cover": true
+        },
+
+        {
+            "id": "experience",
+            "categoryId": "background",
+            "component": "TimelineSection",
+            "jsonPath": "data/sections/experience.json",
+            "faIcon": "fa-solid fa-briefcase"
         },
 
         {
@@ -47,13 +57,7 @@
             "faIcon": "fa-solid fa-tools"
         },
 
-        {
-            "id": "experience",
-            "categoryId": "background",
-            "component": "TimelineSection",
-            "jsonPath": "data/sections/experience.json",
-            "faIcon": "fa-solid fa-briefcase"
-        },
+       
 
         {
             "id": "portfolio",
