@@ -22,6 +22,8 @@
     ],
 
     "sections": [
+
+        
         {
             "id": "about",
             "categoryId": "home",
@@ -29,6 +31,14 @@
             "jsonPath": "data/sections/cover.json",
             "faIcon": "fa-solid fa-address-card",
             "cover": true
+        },
+
+        {
+            "id": "experience",
+            "categoryId": "background",
+            "component": "TimelineSection",
+            "jsonPath": "data/sections/experience.json",
+            "faIcon": "fa-solid fa-briefcase"
         },
 
         {
@@ -46,23 +56,6 @@
             "jsonPath": "data/sections/skills.json",
             "faIcon": "fa-solid fa-tools"
         },
-
-        {
-            "id": "experience",
-            "categoryId": "background",
-            "component": "TimelineSection",
-            "jsonPath": "data/sections/experience.json",
-            "faIcon": "fa-solid fa-briefcase"
-        },
-
-        {
-            "id": "portfolio",
-            "categoryId": "showcase",
-            "component": "GallerySection",
-            "jsonPath": "data/sections/portfolio.json",
-            "faIcon": "fa-solid fa-folder-open"
-        },
-
         {
             "id": "achievements",
             "categoryId": "showcase",
@@ -70,15 +63,6 @@
             "jsonPath": "data/sections/achievements.json",
             "faIcon": "fa-solid fa-award"
         },
-
-        {
-            "id": "hobbies",
-            "categoryId": "more",
-            "component": "InfoSection",
-            "jsonPath": "data/sections/hobbies.json",
-            "faIcon": "fa-solid fa-heart"
-        },
-
         {
             "id": "contact",
             "categoryId": "more",

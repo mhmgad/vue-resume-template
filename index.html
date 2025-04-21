@@ -12,8 +12,20 @@
         <link href="https://fonts.googleapis.com/css?family=Saira:400,700" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Archivo:400,700" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+        <!-- Widget JavaScript bundle -->
+        <script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
     </head>
     <body class="no-scroll" style="background-color: #212529">
+        <!-- Search widget element is not visible by default -->
+        <gen-search-widget
+            configId="19aa6acb-8baa-479f-94e7-77e05b0465e8"
+            triggerId="searchWidgetTrigger">
+        </gen-search-widget>
+
+        <!-- Element that opens the widget on click -->
+        <input placeholder="Search here" id="searchWidgetTrigger" style="position: fixed; top: 20px; right: 20px; z-index: 1000; padding: 8px; border-radius: 4px; border: 1px solid #ccc;" />
+
         <div id="app"></div>
         <script type="module" src="/src/main.js"></script>
     </body>
