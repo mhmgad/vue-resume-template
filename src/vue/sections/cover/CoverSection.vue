@@ -1,5 +1,10 @@
 <template>
     <SectionTemplate :section-data="props.sectionData">
+        <!-- Search Bar above welcome message -->
+        <div :class="['cover-search-bar', { 'cover-search-bar-scrolled': scrolled }]">
+            <SearchBar :large="!scrolled" />
+        </div>
+
         <!-- Title -->
         <h1 class="cover-title display-1" v-html="coverTitle"/>
 
@@ -25,6 +30,7 @@ import {useData} from "../../../composables/data.js"
 import {useNavigation} from "../../../composables/navigation.js"
 import InlineList from "../../widgets/InlineList.vue"
 import SocialLinks from "../../widgets/SocialLinks.vue"
+import SearchBar from '../../widgets/SearchBar.vue'
 
 const data = useData()
 const navigation = useNavigation()
@@ -33,7 +39,8 @@ const navigation = useNavigation()
  * @property {Object} sectionData
  */
 const props = defineProps({
-    sectionData: Object
+    sectionData: Object,
+    scrolled: Boolean
 })
 
 /**
@@ -51,6 +58,47 @@ const coverTitle = computed(() => {
 
 <style lang="scss" scoped>
 @import "/src/scss/_theming.scss";
+
+.cover-search-bar {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 70vw;   
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 10;
+    transition: all 0.3s cubic-bezier(.4,2,.6,1);
+
+    .search-bar {
+        font-size: 1.5rem;
+        padding: 1rem 1.5rem;
+        width: 100%;
+        border-width: 2px;
+        border-radius: 1rem;
+        transition: all 0.3s cubic-bezier(.4,2,.6,1);
+    }
+}
+
+.cover-search-bar-scrolled {
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: fixed;
+    top: 1.2rem;
+    right: 2.5rem;
+    width: auto;
+    z-index: 1200;
+    background: none;
+    .search-bar {
+        font-size: 1.1rem;
+        padding: 0.5rem 1.2rem;
+        width: 220px;
+        border-width: 1px;
+        border-radius: 1.2rem;
+    }
+}
 
 .cover-title {
     margin-bottom: 1rem;

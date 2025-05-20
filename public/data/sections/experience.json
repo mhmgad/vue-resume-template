@@ -4,132 +4,124 @@
             "title": "<span class='text-primary'>Professional</span> Experience",
             "description": "A look into my work experience and career journey."
         },
-
-        "es": {
-            "title": "<span class='text-primary'>Experiencia</span> Profesional",
-            "description": "Un vistazo a mi experiencia laboral y trayectoria profesional."
+        "ar": {
+            "title": "<span class='text-primary'>الخبرة</span> المهنية",
+            "description": "نظرة على خبرتي العملية ومسيرتي المهنية."
         },
-
-        "fr": {
-            "title": "Expérience <span class='text-primary'>Professionnelle</span>",
-            "description": "Un aperçu de mon expérience professionnelle et de mon parcours de carrière."
-        },
-
-        "zh": {
-            "title": "<span class='text-primary'>专业</span> 经验",
-            "description": "了解我的工作经验和职业之旅。"
+        "de": {
+            "title": "<span class='text-primary'>Berufserfahrung</span>",
+            "description": "Ein Einblick in meine Berufserfahrung und Karriereweg."
         }
     },
 
     "items": [
         {
             "id": "experience_item_1",
-            "place": "@link{places.uxStudio}",
-            "period": ["2015/01", "2017/12"],
+            "place": "@link{places.bosch}",
+            "period": ["2024/12", "now"],
             "locales": {
                 "en": {
-                    "title": "UX Designer",
-                    "description": "Contributed to designing intuitive and user-friendly web application interfaces, creating engaging and seamless user experiences. Collaborated closely with cross-functional teams and stakeholders to ensure designs aligned with business goals and user needs.",
-                    "tags": ["Figma", "Wireframing", "Prototyping", "Responsive Design", "User Research"]
+                    "title": "Lead AI Research Engineer",
+                    "description": "Leading the design & development of multi-agent AI systems to optimize internal enterprise workflows. Collaborating with business unit experts to analyze their needs and align them with GenAI technologies. Organizing a focus group for the R&D teams to build competencies in Agentic AI and GraphRAG. Supervising master's and PhD students, contributing to Bosch's publications and patent portfolio.",
+                    "tags": ["AI", "Multi-agent Systems", "GenAI", "Technical Leadership", "GraphRAG"]
                 },
-                "es": {
-                    "title": "Diseñador de UX",
-                    "description": "Contribuí al diseño de interfaces de aplicaciones web intuitivas y amigables para el usuario, creando experiencias de usuario atractivas y fluidas. Colaboré estrechamente con equipos multifuncionales e interesados para asegurarme de que los diseños se alinearan con los objetivos comerciales y las necesidades de los usuarios.",
-                    "tags": ["Figma", "Prototipado", "Diseño Responsivo", "Investigación de Usuarios", "Wireframing"]
+                "ar": {
+                    "title": "مهندس أبحاث الذكاء الاصطناعي الرئيسي",
+                    "description": "قيادة تصميم وتطوير أنظمة الذكاء الاصطناعي متعددة العوامل لتحسين سير العمل المؤسسي الداخلي. التعاون مع خبراء وحدات الأعمال لتحليل احتياجاتهم ومواءمتها مع تقنيات GenAI. تنظيم مجموعة تركيز لفرق البحث والتطوير لبناء الكفاءات في الذكاء الاصطناعي العاملي وGraphRAG. الإشراف على طلاب الماجستير والدكتوراه، والمساهمة في منشورات ومحفظة براءات اختراع Bosch.",
+                    "tags": ["الذكاء الاصطناعي", "أنظمة متعددة العوامل", "GenAI", "القيادة التقنية", "GraphRAG"]
                 },
-                "fr": {
-                    "title": "Designer UX",
-                    "description": "Contribué à la conception d'interfaces d'applications web intuitives et conviviales, créant ainsi des expériences utilisateur engageantes et fluides. Collaboré étroitement avec des équipes pluridisciplinaires et des parties prenantes pour garantir que les designs soient alignés sur les objectifs commerciaux et les besoins des utilisateurs.",
-                    "tags": ["Figma", "Maquettes", "Prototypage", "Design Responsive", "Recherche Utilisateur"]
-                },
-                "zh": {
-                    "title": "用户体验设计师",
-                    "description": "为设计直观、用户友好的网络应用界面作出了贡献，创建了引人入胜且无缝的用户体验。与跨职能团队和利益相关者密切合作，确保设计与业务目标和用户需求相一致。",
-                    "tags": ["Figma", "线框图", "原型设计", "响应式设计", "用户研究"]
+                "de": {
+                    "title": "Leitender KI-Forschungsingenieur",
+                    "description": "Leitung des Designs und der Entwicklung von Multi-Agenten-KI-Systemen zur Optimierung interner Unternehmensabläufe. Zusammenarbeit mit Experten aus den Geschäftseinheiten zur Analyse ihrer Bedürfnisse und Abstimmung mit GenAI-Technologien. Organisation einer Fokusgruppe für die F&E-Teams zum Aufbau von Kompetenzen in Agentic AI und GraphRAG. Betreuung von Master- und Promotionsstudenten, Beitrag zu Boschs Publikationen und Patentportfolio.",
+                    "tags": ["KI", "Multi-Agenten-Systeme", "GenAI", "Technische Führung", "GraphRAG"]
                 }
             }
         },
-
         {
             "id": "experience_item_2",
-            "place": "@link{places.adobe}",
-            "period": ["2018/01", "2020/08"],
+            "place": "@link{places.bosch}",
+            "period": ["2021/01", "2024/11"],
             "locales": {
                 "en": {
-                    "title": "Senior UI/UX Designer",
-                    "description": "Led design projects, conducted comprehensive user research, and utilized data-driven insights to enhance user experiences. Managed design teams, fostering creativity and innovation while implementing design best practices to deliver successful outcomes for various digital products.",
-                    "tags": ["Figma", "Adobe XD", "Sketch", "Data-Driven Design"]
+                    "title": "Research Engineer",
+                    "description": "Successfully built a portfolio of PoCs, Demonstrations, and services for Neuro-Symbolic AI & NLU. Provisioned and managed cloud infrastructure & tooling to support Neuro-Symbolic AI and LLMs R&D. Led Bosch use-case development within the innovative EU Horizon project: 'Graph Massivizer'.",
+                    "tags": ["AI", "Neuro-Symbolic AI", "NLU", "Cloud Infrastructure", "Graph Massivizer"]
                 },
-                "es": {
-                    "title": "Designer Senior UI/UX",
-                    "description": "Lideré proyectos de diseño, realicé investigaciones exhaustivas sobre usuarios y utilicé información basada en datos para mejorar las experiencias de usuario. Gestioné equipos de diseño, fomentando la creatividad y la innovación al tiempo que implementaba las mejores prácticas de diseño para obtener resultados exitosos en diversos productos digitales.",
-                    "tags": ["Figma", "Adobe XD", "Sketch", "Diseño Basado en Datos"]
+                "ar": {
+                    "title": "مهندس أبحاث",
+                    "description": "بناء محفظة ناجحة من إثباتات المفاهيم والعروض والخدمات للذكاء الاصطناعي العصبي الرمزي ومعالجة اللغة الطبيعية. توفير وإدارة البنية التحتية السحابية والأدوات لدعم أبحاث الذكاء الاصطناعي العصبي الرمزي وLLMs. قيادة تطوير حالات الاستخدام في Bosch ضمن مشروع EU Horizon المبتكر: 'Graph Massivizer'.",
+                    "tags": ["الذكاء الاصطناعي", "الذكاء الاصطناعي العصبي الرمزي", "معالجة اللغة الطبيعية", "البنية التحتية السحابية", "Graph Massivizer"]
                 },
-                "fr": {
-                    "title": "Designer UI/UX Senior",
-                    "description": "A piloté les initiatives UX en supervisant une équipe de concepteurs, en élaborant des stratégies de conception et en dirigeant des collaborations interfonctionnelles avec les responsables de produits, les ingénieurs et les cadres. Axé sur la création de designs centrés sur l'utilisateur alignés sur les objectifs commerciaux et aboutissant à une satisfaction accrue des utilisateurs.",
-                    "tags": ["Figma", "Adobe XD", "Sketch", "Conception Basée sur les Données"]
-                },
-                "zh": {
-                    "title": "高级UI/UX设计师",
-                    "description": "领导设计项目，进行全面的用户研究，利用数据驱动的见解提升用户体验。管理设计团队，培养创意和创新，同时实施设计最佳实践，为各种数字产品交付成功的结果。",
-                    "tags": ["Figma", "Adobe XD", "Sketch", "数据驱动设计"]
+                "de": {
+                    "title": "Forschungsingenieur",
+                    "description": "Erfolgreicher Aufbau eines Portfolios von PoCs, Demonstrationen und Dienstleistungen für Neuro-Symbolic AI & NLU. Bereitstellung und Verwaltung von Cloud-Infrastruktur und Werkzeugen zur Unterstützung der Forschung zu Neuro-Symbolic AI und LLMs. Leitung der Bosch-Anwendungsfallentwicklung im Rahmen des innovativen EU Horizon-Projekts: 'Graph Massivizer'.",
+                    "tags": ["KI", "Neuro-Symbolic AI", "NLU", "Cloud-Infrastruktur", "Graph Massivizer"]
                 }
             }
         },
-
         {
             "id": "experience_item_3",
-            "place": "@link{places.apple}",
-            "period": ["2020/09", "2022/09"],
+            "place": "@link{places.mpi}",
+            "period": ["2015/04", "2020/12"],
             "locales": {
                 "en": {
-                    "title": "Lead UX Designer",
-                    "description": "Drove UX initiatives by overseeing a team of designers, crafting design strategies, and spearheading cross-functional collaborations with product managers, engineers, and executives. Focused on creating user-centric designs that aligned with business objectives and resulted in enhanced user satisfaction.",
-                    "tags": ["Sketch", "Adobe XD", "InVision", "Design Strategy", "Cross-Functional Collaboration"]
+                    "title": "Research Assistant",
+                    "description": "Research areas: information extraction, knowledge representation, and explainable AI. Tutored several post-graduate courses and co-supervised master thesis students.",
+                    "tags": ["Information Extraction", "Knowledge Representation", "Explainable AI", "Tutoring"]
                 },
-                "es": {
-                    "title": "Designer UX Principal",
-                    "description": "Impulsé iniciativas de UX supervisando un equipo de diseñadores, elaborando estrategias de diseño y liderando colaboraciones multifuncionales con gerentes de producto, ingenieros y ejecutivos. Centrado en crear diseños centrados en el usuario que se alinearan con los objetivos comerciales y que dieron como resultado una mayor satisfacción del usuario.",
-                    "tags": ["Sketch", "Adobe XD", "InVision", "Estrategia de Diseño", "Colaboración Multifuncional"]
+                "ar": {
+                    "title": "مساعد باحث",
+                    "description": "مجالات البحث: استخراج المعلومات، تمثيل المعرفة، والذكاء الاصطناعي القابل للتفسير. تدريس عدة دورات دراسات عليا والإشراف المشترك على طلاب الماجستير.",
+                    "tags": ["استخراج المعلومات", "تمثيل المعرفة", "الذكاء الاصطناعي القابل للتفسير", "التدريس"]
                 },
-                "fr": {
-                    "title": "Designer UX Principal",
-                    "description": "A piloté les initiatives UX en supervisant une équipe de concepteurs, en élaborant des stratégies de conception et en dirigeant des collaborations interfonctionnelles avec les responsables de produits, les ingénieurs et les cadres. Axé sur la création de designs centrés sur l'utilisateur alignés sur les objectifs commerciaux et aboutissant à une satisfaction accrue des utilisateurs.",
-                    "tags": ["Sketch", "Adobe XD", "InVision", "Stratégie de Conception", "Collaboration Interfonctionnelle"]
-                },
-                "zh": {
-                    "title": "首席用户体验设计师",
-                    "description": "通过监督设计团队、制定设计战略，并与产品经理、工程师和高管共同推动跨职能合作，推动了用户体验的创新。专注于创建符合业务目标的以用户为中心的设计，从而实现了增强的用户满意度。",
-                    "tags": ["Sketch", "Adobe XD", "InVision", "设计战略", "跨职能合作"]
+                "de": {
+                    "title": "Wissenschaftlicher Assistent",
+                    "description": "Forschungsbereiche: Informationsextraktion, Wissensrepräsentation und erklärbare KI. Betreuung mehrerer postgradualer Kurse und Mitbetreuung von Masterstudenten.",
+                    "tags": ["Informationsextraktion", "Wissensrepräsentation", "Erklärbare KI", "Unterricht"]
                 }
             }
         },
-
         {
             "id": "experience_item_4",
-            "place": "@link{places.coursera}",
-            "period": ["2022/10", "now"],
+            "place": "@link{places.bosch}",
+            "period": ["2019/04", "2019/07"],
             "locales": {
                 "en": {
-                    "title": "UX Design Full-Time Professor",
-                    "description": "Leveraged my expertise in UX design to educate and inspire students in the art of user-centered design principles. Conducted user studies, analyzed data, and guided students in applying theoretical knowledge to practical projects, empowering the next generation of UX designers.",
-                    "tags": ["Adobe XD", "Sketch", "Axure", "Educational Mentorship"]
+                    "title": "Research Intern",
+                    "description": "Authored two research papers at tier-1 venues, resulting in three patent applications.",
+                    "tags": ["Research Papers", "Patent Applications"]
                 },
-                "es": {
-                    "title": "Profesor de Tiempo Completo en UX Design",
-                    "description": "Utilicé mi experiencia en diseño UX para educar e inspirar a los estudiantes en el arte de los principios de diseño centrado en el usuario. Realicé estudios de usuarios, analicé datos y orienté a los estudiantes en la aplicación de conocimientos teóricos a proyectos prácticos, empoderando a la próxima generación de diseñadores UX.",
-                    "tags": ["Adobe XD", "Sketch", "Axure", "Mentoría Educativa"]
+                "ar": {
+                    "title": "متدرب باحث",
+                    "description": "تأليف ورقتين بحثيتين في مؤتمرات من الدرجة الأولى، مما أدى إلى تقديم ثلاث طلبات براءات اختراع.",
+                    "tags": ["أوراق بحثية", "طلبات براءات اختراع"]
                 },
-                "fr": {
-                    "title": "Professeur à temps plein en UX Design",
-                    "description": "J'ai mis à profit mon expertise en conception UX pour éduquer et inspirer les étudiants dans l'art des principes de conception centrés sur l'utilisateur. J'ai réalisé des études utilisateur, analysé des données et guidé les étudiants dans l'application des connaissances théoriques à des projets pratiques, donnant ainsi les moyens à la prochaine génération de concepteurs UX.",
-                    "tags": ["Adobe XD", "Sketch", "Axure", "Mentorat Éducatif"]
+                "de": {
+                    "title": "Forschungspraktikant",
+                    "description": "Verfasser von zwei Forschungsarbeiten auf erstklassigen Konferenzen, was zu drei Patentanmeldungen führte.",
+                    "tags": ["Forschungsarbeiten", "Patentanmeldungen"]
+                }
+            }
+        },
+        {
+            "id": "experience_item_5",
+            "place": "@link{places.atech}",
+            "period": ["2012/07", "2013/09"],
+            "locales": {
+                "en": {
+                    "title": "Research Engineer",
+                    "description": "Researched methods for real-time indoor Augmented Reality experience for mobile devices.",
+                    "tags": ["Augmented Reality", "Mobile Devices"]
                 },
-                "zh": {
-                    "title": "全职用户体验设计教授",
-                    "description": "利用我的用户体验设计专业知识，教育和激励学生学习以用户为中心的设计原则。进行用户研究，分析数据，并指导学生将理论知识应用于实际项目，培养下一代用户体验设计师。",
-                    "tags": ["Adobe XD", "Sketch", "Axure", "教育指导"]
+                "ar": {
+                    "title": "مهندس أبحاث",
+                    "description": "بحث في طرق تجربة الواقع المعزز الداخلي في الوقت الحقيقي للأجهزة المحمولة.",
+                    "tags": ["الواقع المعزز", "الأجهزة المحمولة"]
+                },
+                "de": {
+                    "title": "Forschungsingenieur",
+                    "description": "Forschung zu Methoden für Echtzeit-Innenraum-Augmented-Reality-Erlebnisse für mobile Geräte.",
+                    "tags": ["Augmented Reality", "Mobile Geräte"]
                 }
             }
         }

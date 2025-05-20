@@ -1,79 +1,85 @@
 {
-    "adobe": {
-        "logoUrl": "images/places/logo-adobe.png",
-        "faIcon": "fa fa-house-laptop",
-        "locales": {
-            "en": {"name": "Adobe Inc."}
-        }
+  "places": [
+    {
+      "id": "currentCompany",
+      "locales": {
+        "en": { "name": "Current Company" },
+        "ar": { "name": "الشركة الحالية" },
+        "de": { "name": "Aktuelles Unternehmen" }
+      },
+      "address": "Berlin, Germany",
+      "coordinates": {
+        "lat": 52.520008,
+        "lng": 13.404954
+      }
     },
-
-    "apple": {
-        "logoUrl": "images/places/logo-apple.png",
-        "faIcon": "fab fa-apple",
-        "locales": {
-            "en": {"name": "Apple Inc."}
-        }
+    {
+      "id": "previousCompany",
+      "locales": {
+        "en": { "name": "Previous Company" },
+        "ar": { "name": "الشركة السابقة" },
+        "de": { "name": "Vorheriges Unternehmen" }
+      },
+      "address": "Berlin, Germany",
+      "coordinates": {
+        "lat": 52.520008,
+        "lng": 13.404954
+      }
     },
-
-    "coursera": {
-        "logoUrl": "images/places/logo-coursera.png",
-        "faIcon": "fa fa-house-laptop",
-        "locales": {
-            "en": {"name": "Coursera"}
-        }
+    {
+      "id": "university",
+      "locales": {
+        "en": { "name": "Technical University of Berlin" },
+        "ar": { "name": "جامعة برلين التقنية" },
+        "de": { "name": "Technische Universität Berlin" }
+      },
+      "address": "Berlin, Germany",
+      "coordinates": {
+        "lat": 52.512222,
+        "lng": 13.326944
+      }
     },
-
-    "forbes": {
-        "logoUrl": null,
-        "faIcon": "fa-solid fa-newspaper",
-        "locales": {
-            "en": {"name": "Forbes"}
-        }
+    {
+      "id": "bosch",
+      "locales": {
+        "en": { "name": "Robert Bosch GmbH" },
+        "ar": { "name": "روبرت بوش" },
+        "de": { "name": "Robert Bosch GmbH" }
+      },
+      "address": "Stuttgart, Germany",
+      "coordinates": {
+        "lat": 48.7758,
+        "lng": 9.1829
+      },
+      "logoUrl": "/images/places/logo-bosch.png"
     },
-
-    "google": {
-        "logoUrl": null,
-        "faIcon": "fab fa-google",
-        "locales": {
-            "en": {"name": "Google"}
-        }
+    {
+      "id": "mpi",
+      "locales": {
+        "en": { "name": "Max-Planck-Institut für Informatik" },
+        "ar": { "name": "معهد ماكس بلانك للمعلوماتية" },
+        "de": { "name": "Max-Planck-Institut für Informatik" }
+      },
+      "address": "Saarbrücken, Germany",
+      "coordinates": {
+        "lat": 49.2557,
+        "lng": 7.0417
+      },
+      "logoUrl": "/images/companies/mpi.png"
     },
-
-    "harvard": {
-        "logoUrl": "images/places/logo-harvard.png",
-        "faIcon": "fas fa-university",
-        "locales": {
-            "en": {"name": "Harvard University"},
-            "es": {"name": "Universidad de Harvard"},
-            "fr": {"name": "Université Harvard"},
-            "zh": {"name": "哈佛大学"}
-        }
-    },
-
-    "paris": {
-        "logoUrl": "images/places/logo-paris-university.png",
-        "faIcon": "fas fa-university",
-        "locales": {
-            "en": {"name": "University of Paris"},
-            "es": {"name": "Universidad de París"},
-            "fr": {"name": "Université de Paris"},
-            "zh": {"name": "巴黎大学"}
-        }
-    },
-
-    "udacity": {
-        "logoUrl": "images/places/logo-udacity.png",
-        "faIcon": "fa fa-house-laptop",
-        "locales": {
-            "en": {"name": "Udacity"}
-        }
-    },
-
-    "uxStudio": {
-        "logoUrl": "images/places/logo-ux-studio.png",
-        "faIcon": "fas fa-paint-brush",
-        "locales": {
-            "en": {"name": "UX Masters Studio"}
-        }
+    {
+      "id": "atech",
+      "locales": {
+        "en": { "name": "A-tech Group" },
+        "ar": { "name": "مجموعة أيه-تك" },
+        "de": { "name": "A-tech Group" }
+      },
+      "address": "Cairo, Egypt",
+      "coordinates": {
+        "lat": 30.0444,
+        "lng": 31.2357
+      },
+      "logoUrl": "/images/companies/atech.png"
     }
-}
+  ]
+} 

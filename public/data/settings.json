@@ -20,5 +20,18 @@
 
     "preloaderEnabled": false,
     "contactFormEnabled": false,
-    "sidebarShrinkingEnabled": true
+    "sidebarShrinkingEnabled": true,
+    
+    "dataFiles": [
+        "data/settings.json",
+        "data/strings.json",
+        "data/info/places.json",
+        "data/info/profile.json",
+        "data/sections.json",
+        "data/sections/cover.json",
+        "data/sections/experience.json",
+        "data/sections/education.json",
+        "data/sections/skills.json",
+        "data/sections/contact.json"
+    ]
 }

@@ -249,7 +249,23 @@ export function useData() {
 
         const expression = match[1]
         const [targetId, ...fields] = expression.split('.')
-        const targetObject = _jsonData[targetId] || _findObjectWithId(_jsonData.sections, targetId)?.content
+        console.log('Debug - _jsonData:', JSON.stringify(_jsonData))
+        console.log('Debug - targetId:', targetId)
+        console.log('Debug - fields:', fields)
+
+        let targetObject = _jsonData[targetId]
+        
+        // Special handling for places which are nested in a 'places' array
+        if (targetId === 'places' && targetObject?.places) {
+            const placeId = fields[0]
+            const place = targetObject.places.find(p => p.id === placeId)
+            if (place) {
+                targetObject = place
+                fields.shift() // Remove the place ID from fields as we've handled it
+            }
+        } else {
+            targetObject = targetObject || _findObjectWithId(_jsonData.sections, targetId)?.content
+        }
 
         if (!targetObject) {
             throw new Error("Can't resolve cross json-reference. Target JSON doesn't exist: " + evalString)

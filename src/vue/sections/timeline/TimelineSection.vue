@@ -9,12 +9,12 @@
                     <!-- If item has an image... -->
                     <ImageView v-if="item['place'] && item['place']['logoUrl']"
                                :src="item['place']['logoUrl']"
-                               :alt="item['place']['locales']['name']"
+                               :alt="item['place'] && item['place']['locales'] ? item['place']['locales']['name'] : ''"
                                class="timeline-item-img img-fluid rounded-circle"/>
 
                     <!-- Fallback, use font awesome icon... -->
                     <i v-else  class="timeline-item-fa-icon"
-                               :class="item['place']['faIcon'] ? item['place']['faIcon'] : 'fa-solid fa-clock'"/>
+                               :class="item['place'] && item['place']['faIcon'] ? item['place']['faIcon'] : 'fa-solid fa-clock'"/>
                 </div>
 
                 <!-- Item Content -->
@@ -26,7 +26,7 @@
                             <h4 class="timeline-item-title fw-bold" v-html="item['locales']['title']"/>
                             <h6 class="timeline-item-subtitle text-light-6 text-3">
                                 <i class="fa-solid fa-building me-2 ms-2"/>
-                                <span>{{item['place'] ? item['place']['locales']['name'] : ''}}</span>
+                                <span>{{item['place'] && item['place']['locales'] ? item['place']['locales']['name'] : ''}}</span>
                             </h6>
                         </div>
 

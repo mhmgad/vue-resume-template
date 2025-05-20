@@ -12,10 +12,10 @@
         <!-- Content -->
         <div class="content-column" :class="navigation.isSidebarExpanded() ? '' : 'content-column-expand'">
             <!-- Navigation Header (Small Screens) -->
-            <NavHeader @link-clicked="_navigateToSection"/>
+            <NavHeader @link-clicked="_navigateToSection" :show-search="scrolled"/>
 
             <!-- Website Sections -->
-            <slot/>
+            <slot :scrolled="scrolled" />
         </div>
 
         <!-- Navigation Category Tabs (Small Screens) -->
@@ -33,6 +33,8 @@ import {useRoute, useRouter} from "vue-router"
 import {onMounted, onUnmounted, watch} from "vue"
 import {useLayout} from "../../composables/layout.js"
 import {useUtils} from "../../composables/utils.js"
+import SearchBar from '../widgets/SearchBar.vue'
+import {ref} from 'vue'
 
 import NavSidebar from "../navigation/default/NavSidebar.vue"
 import NavHeader from "../navigation/mobile/NavHeader.vue"
@@ -46,6 +48,7 @@ const language = useLanguage()
 const route = useRoute()
 const router = useRouter()
 const utils = useUtils()
+const scrolled = ref(false)
 
 /**
  * @private
@@ -56,6 +59,8 @@ onMounted(() => {
     watch(() => route.name, () => { _onWindowChangeEvent() })
     watch(() => language.getSelectedLanguage(), () => { _onLanguageChanged() })
     _onWindowChangeEvent()
+    window.addEventListener('scroll', handleScroll)
+    handleScroll()
 })
 
 /**
@@ -64,6 +69,7 @@ onMounted(() => {
 onUnmounted(() => {
     window.removeEventListener('resize', _onWindowChangeEvent)
     window.removeEventListener('scroll', _onWindowChangeEvent)
+    window.removeEventListener('scroll', handleScroll)
 })
 
 /**
@@ -158,6 +164,10 @@ const _navigateToCategory = (categoryId) => {
     _navigateToSection(targetSectionId)
 }
 
+const handleScroll = () => {
+    scrolled.value = window.scrollY > 0
+}
+
 defineExpose({
     init
 })
@@ -219,5 +229,21 @@ defineExpose({
         left: 0;
         z-index: 99;
     }
+}
+
+.centered-search-bar {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  pointer-events: none;
+}
+.centered-search-bar > * {
+  pointer-events: auto;
 }
 </style>

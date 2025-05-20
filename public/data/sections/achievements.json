@@ -2,25 +2,43 @@
     "locales": {
         "en": {
             "title": "Career <span class='text-primary'>Achievements</span>",
-            "description": "My journey as a UX designer has been marked by unwavering dedication to learning and skill enhancement, along with enthusiastic participation in design events. As a result, I have collected a list of notable awards and certifications:"
+            "description": "My journey as an AI engineer has been marked by significant contributions to AI research, publications, and industry innovations."
         },
-
+        "ar": {
+            "title": "<span class='text-primary'>إنجازات</span> مهنية",
+            "description": "كانت رحلتي كمهندس ذكاء اصطناعي مليئة بمساهمات كبيرة في أبحاث الذكاء الاصطناعي والمنشورات والابتكارات الصناعية."
+        },
+        "de": {
+            "title": "<span class='text-primary'>Berufliche</span> Erfolge",
+            "description": "Meine Reise als KI-Ingenieur war geprägt von bedeutenden Beiträgen zur KI-Forschung, Veröffentlichungen und industriellen Innovationen."
+        },
         "es": {
             "title": "Logros <span class='text-primary'>Profesionales</span>",
             "description": "Mi trayectoria como diseñador de UX ha estado marcada por una dedicación inquebrantable al aprendizaje y mejora de habilidades, junto con una participación entusiasta en eventos de diseño. Como resultado, he recopilado una lista de premios y certificaciones notables:"
         },
-
         "fr": {
             "title": "Réalisations <span class='text-primary'>Professionnelles</span>",
             "description": "Mon parcours en tant que concepteur UX a été marqué par une dédication inébranlable à l'apprentissage et à l'amélioration des compétences, ainsi que par une participation enthousiaste à des événements de conception. En conséquence, j'ai dressé une liste de récompenses et de certifications remarquables:"
         },
-
         "zh": {
             "title": "职业<span class='text-primary'>成就</span>",
             "description": "作为一名UX设计师，我的旅程充满了对学习和技能提升的坚定执着，以及对设计活动的热情参与。因此，我汇总了一份显著奖项和认证的列表："
         }
     },
-
+    "credits": {
+        "en": {
+            "title": "Credits",
+            "description": "Special thanks to all collaborators and research partners."
+        },
+        "ar": {
+            "title": "شكر وتقدير",
+            "description": "شكر خاص لجميع المتعاونين وشركاء البحث."
+        },
+        "de": {
+            "title": "Danksagung",
+            "description": "Besonderer Dank gilt allen Mitarbeitern und Forschungspartnern."
+        }
+    },
     "subcategories": [
         {
             "id": "awards",
@@ -42,205 +60,370 @@
                 "fr": {"title": "Certifications", "buttonLabel": "Voir la Certification"},
                 "zh": {"title": "获得的证书", "buttonLabel": "查看证书"}
             }
+        },
+
+        {
+            "id": "scientific_reviewing",
+            "faIcon": "fa-solid fa-microscope",
+            "locales": {
+                "en": {"title": "Scientific Reviewing", "buttonLabel": "More Info"},
+                "ar": {"title": "مراجعة علمية", "buttonLabel": "مزيد من المعلومات"},
+                "de": {"title": "Wissenschaftliche Begutachtung", "buttonLabel": "Mehr Infos"}
+            }
+        },
+
+        {
+            "id": "tutorials",
+            "faIcon": "fa-solid fa-chalkboard-teacher",
+            "locales": {
+                "en": {"title": "Tutorials", "buttonLabel": "More Info"},
+                "ar": {"title": "دروس تعليمية", "buttonLabel": "مزيد من المعلومات"},
+                "de": {"title": "Tutorials", "buttonLabel": "Mehr Infos"}
+            }
+        },
+
+        {
+            "id": "invited_talks",
+            "faIcon": "fa-solid fa-podium",
+            "locales": {
+                "en": {"title": "Invited Talks", "buttonLabel": "More Info"},
+                "ar": {"title": "محاضرات مدعوة", "buttonLabel": "مزيد من المعلومات"},
+                "de": {"title": "Eingeladene Vorträge", "buttonLabel": "Mehr Infos"}
+            }
+        },
+
+        {
+            "id": "side_projects",
+            "faIcon": "fa-solid fa-project-diagram",
+            "locales": {
+                "en": {"title": "Side Projects", "buttonLabel": "More Info"},
+                "ar": {"title": "مشاريع جانبية", "buttonLabel": "مزيد من المعلومات"},
+                "de": {"title": "Nebenprojekte", "buttonLabel": "Mehr Infos"}
+            }
+        },
+
+        {
+            "id": "publications",
+            "faIcon": "fa-solid fa-book",
+            "locales": {
+                "en": {"title": "Publications", "buttonLabel": "More Info"},
+                "ar": {"title": "منشورات", "buttonLabel": "مزيد من المعلومات"},
+                "de": {"title": "Veröffentlichungen", "buttonLabel": "Mehr Infos"}
+            }
         }
     ],
 
     "items": {
-        "awards": [
+        "scientific_reviewing": [
             {
-                "id": "graduation_project",
-                "place": "@link{places.harvard}",
-                "date": "2018/08",
-                "href": null,
+                "id": "reviewing_1",
+                "place": "Conferences",
+                "date": "2017-2020",
                 "locales": {
                     "en": {
-                        "title": "Best Graduation Project",
-                        "description": "Outstanding work on graduation project; recognized for innovation and impact."
+                        "title": "Scientific Reviewer",
+                        "description": "Reviewed papers for AAAI'18 '19, ESWC '17-, ISWC'18-."
                     },
-
-                    "es": {
-                        "title": "Mejor Proyecto de Graduación",
-                        "description": "Trabajo destacado en proyecto de graduación; reconocido por innovación e impacto."
+                    "ar": {
+                        "title": "مراجع علمي",
+                        "description": "راجع أوراقًا لـ AAAI'18 '19، ESWC '17-، ISWC'18-."
                     },
-
-                    "fr": {
-                        "title": "Meilleur Projet de Fin d'Études",
-                        "description": "Travail exceptionnel sur le projet de fin d'études; reconnu pour l'innovation et l'impact."
-                    },
-
-                    "zh": {
-                        "title": "最佳毕业项目",
-                        "description": "在毕业项目上的杰出工作；因创新和影响力受到认可。"
+                    "de": {
+                        "title": "Wissenschaftlicher Gutachter",
+                        "description": "Begutachtete Arbeiten für AAAI'18 '19, ESWC '17-, ISWC'18-."
                     }
                 }
             },
-
             {
-                "id": "alumni_hackaton",
-                "place": "@link{places.harvard}",
-                "date": "2019/09",
-                "href": "https://harvard.com",
+                "id": "reviewing_2",
+                "place": "Journals",
+                "date": "2019-2020",
                 "locales": {
                     "en": {
-                        "title": "2nd Place – Alumni UX Hackathon",
-                        "description": "Secured 2nd place in Harvard's Alumni UX hackathon; demonstrated creative problem-solving."
+                        "title": "Journal Reviewer",
+                        "description": "Reviewed for IEEE Access'19, IP&M'19, AIJ'20."
                     },
-
-                    "es": {
-                        "title": "2do Lugar - Hackathon Alumni de UX",
-                        "description": "Obtuvo el 2do lugar en el Hackathon Alumni de UX de Harvard; demostró solución creativa de problemas."
+                    "ar": {
+                        "title": "مراجع مجلة",
+                        "description": "راجع لـ IEEE Access'19، IP&M'19، AIJ'20."
                     },
-
-                    "fr": {
-                        "title": "2e Place - Hackathon UX des Anciens",
-                        "description": "Obtenu la 2e place au hackathon UX des anciens de Harvard; démontré la résolution créative de problèmes."
-                    },
-
-                    "zh": {
-                        "title": "第二名 - 校友UX黑客马拉松",
-                        "description": "在哈佛校友UX黑客马拉松中获得第二名；展示了创造性问题解决能力。"
-                    }
-                }
-            },
-
-            {
-                "id": "adobe_jam",
-                "place": "@link{places.adobe}",
-                "date": "2020/11",
-                "href": null,
-                "locales": {
-                    "en": {
-                        "title": "1st Place – Adobe Creative Jam",
-                        "description": "Achieved 1st place in Adobe Creative Jam; showcased design excellence and collaboration."
-                    },
-
-                    "es": {
-                        "title": "1er Lugar - Adobe Creative Jam",
-                        "description": "Obtuvo el 1er lugar en Adobe Creative Jam; mostró excelencia en diseño y colaboración."
-                    },
-
-                    "fr": {
-                        "title": "1ère Place - Adobe Creative Jam",
-                        "description": "Obtenu la 1ère place à Adobe Creative Jam; mis en avant l'excellence en design et la collaboration."
-                    },
-
-                    "zh": {
-                        "title": "第一名 - Adobe创意盛宴",
-                        "description": "在Adobe创意盛宴中获得第一名；展示了卓越的设计和合作。"
-                    }
-                }
-            },
-
-            {
-                "id": "article_mention",
-                "place": "@link{places.forbes}",
-                "date": "2023/03",
-                "href": "https://forbes.com",
-                "locales": {
-                    "en": {
-                        "title": "Article Mention – UX Contribution",
-                        "description": "Featured in Forbes for outstanding UX contributions; impactful designs and insights."
-                    },
-
-                    "es": {
-                        "title": "Mención en Artículo - Contribución a UX",
-                        "description": "Destacado en Forbes por sobresalientes contribuciones a UX; diseños e ideas impactantes."
-                    },
-
-                    "fr": {
-                        "title": "Mention d'Article - Contribution UX",
-                        "description": "Mis en avant dans Forbes pour d'excellentes contributions UX ; designs et idées impactantes."
-                    },
-
-                    "zh": {
-                        "title": "文章提及 - 用户体验贡献",
-                        "description": "在福布斯杂志上因出色的用户体验贡献而受到关注；设计和见解产生了影响。"
+                    "de": {
+                        "title": "Zeitschriften-Gutachter",
+                        "description": "Begutachtete für IEEE Access'19, IP&M'19, AIJ'20."
                     }
                 }
             }
         ],
-
-        "certifications": [
+        "tutorials": [
             {
-                "id": "google_cert",
-                "place": "@link{places.google}",
-                "date": "2018/08",
-                "href": "https://google.com",
+                "id": "tutorial_1",
+                "place": "ISWC'",
+                "date": "2020",
                 "locales": {
                     "en": {
-                        "title": "Google UX Design Certification",
-                        "description": "Certified by Google in UX design; demonstrated expertise in user-centered design."
+                        "title": "Tutorial Co-organizer",
+                        "description": "Co-organized 'Neuro-Symbolic AI for Industry 4.0' (NeSyAI4)."
                     },
-
-                    "es": {
-                        "title": "Certificación de Diseño UX de Google",
-                        "description": "Certificado por Google en diseño UX; demostró experiencia en diseño centrado en el usuario."
+                    "ar": {
+                        "title": "منظم مشارك للدروس التعليمية",
+                        "description": "شارك في تنظيم 'الذكاء الاصطناعي العصبي الرمزي للصناعة 4.0' (NeSyAI4)."
                     },
-
-                    "fr": {
-                        "title": "Certification Google UX Design",
-                        "description": "Certifié par Google en conception UX ; a démontré une expertise en design centré sur l'utilisateur."
+                    "de": {
+                        "title": "Mitorganisator von Tutorials",
+                        "description": "Mitorganisiert 'Neuro-Symbolic AI for Industry 4.0' (NeSyAI4)."
+                    }
+                }
+            }
+        ],
+        "invited_talks": [
+            {
+                "id": "talk_1",
+                "place": "Passu Uni., Germany",
+                "date": "2020",
+                "locales": {
+                    "en": {
+                        "title": "Invited Talk",
+                        "description": "'Neuro-Symbolic AI & KGs Applications in Industrial Settings'."
                     },
-
-                    "zh": {
-                        "title": "Google用户体验设计认证",
-                        "description": "通过Google用户体验设计认证；展示了用户中心设计的专业知识。"
+                    "ar": {
+                        "title": "محاضرة مدعوة",
+                        "description": "'تطبيقات الذكاء الاصطناعي العصبي الرمزي وKGs في البيئات الصناعية'."
+                    },
+                    "de": {
+                        "title": "Eingeladener Vortrag",
+                        "description": "'Neuro-Symbolic AI & KGs Applications in Industrial Settings'."
                     }
                 }
             },
-
             {
-                "id": "ui_nanodegree",
-                "place": "@link{places.udacity}",
-                "date": "2019/04",
-                "href": "https://udemy.com",
+                "id": "talk_2",
+                "place": "Nile Uni., Egypt",
+                "date": "2020",
                 "locales": {
                     "en": {
-                        "title": "UI/UX Nanodegree",
-                        "description": "Completed comprehensive UI/UX nanodegree on Udemy; acquired practical skills."
+                        "title": "Invited Talk",
+                        "description": "'Applications of KG Link Prediction in Production and Business at Bosch'."
                     },
-
-                    "es": {
-                        "title": "Nanogrado en UI/UX",
-                        "description": "Completó el nanogrado completo en UI/UX en Udemy; adquirió habilidades prácticas."
+                    "ar": {
+                        "title": "محاضرة مدعوة",
+                        "description": "'تطبيقات التنبؤ بالروابط في KG في الإنتاج والأعمال في Bosch'."
                     },
-
-                    "fr": {
-                        "title": "Nanodiplôme UI/UX",
-                        "description": "A suivi le nanodiplôme complet en UI/UX sur Udemy ; a acquis des compétences pratiques."
-                    },
-
-                    "zh": {
-                        "title": "UI/UX纳米学位",
-                        "description": "在Udemy完成了全面的UI/UX纳米学位；获得了实际技能。"
+                    "de": {
+                        "title": "Eingeladener Vortrag",
+                        "description": "'Applications of KG Link Prediction in Production and Business at Bosch'."
                     }
                 }
             },
-
             {
-                "id": "material_cert",
-                "place": "@link{places.google}",
-                "date": "2020/06",
-                "href": "https://google.com",
+                "id": "talk_3",
+                "place": "ICKG, Abu Dhabi, UAE",
+                "date": "2020",
                 "locales": {
                     "en": {
-                        "title": "Material Design Certification",
-                        "description": "Earned Material Design certification; demonstrated proficiency in modern design principles."
+                        "title": "Co-speaker",
+                        "description": "'Graphs and RAG for Better Industrial GenAI Solutions'."
                     },
-
-                    "es": {
-                        "title": "Certificación de Material Design",
-                        "description": "Obtuvo certificación de Material Design; demostró competencia en principios de diseño moderno."
+                    "ar": {
+                        "title": "متحدث مشارك",
+                        "description": "'الرسوم البيانية وRAG لحلول GenAI الصناعية الأفضل'."
                     },
-
-                    "fr": {
-                        "title": "Certification Material Design",
-                        "description": "A obtenu la certification Material Design ; a démontré sa maîtrise des principes de design modernes."
+                    "de": {
+                        "title": "Mitredner",
+                        "description": "'Graphs and RAG for Better Industrial GenAI Solutions'."
+                    }
+                }
+            }
+        ],
+        "side_projects": [
+            {
+                "id": "project_1",
+                "place": "Personal",
+                "date": "Ongoing",
+                "locales": {
+                    "en": {
+                        "title": "Deep Learning Model for Predicting Stock Movements",
+                        "description": "Developed a model to predict stock market trends."
                     },
-
-                    "zh": {
-                        "title": "Material Design认证",
-                        "description": "获得了Material Design认证；展示了对现代设计原则的熟练掌握。"
+                    "ar": {
+                        "title": "نموذج التعلم العميق للتنبؤ بحركات الأسهم",
+                        "description": "تم تطوير نموذج للتنبؤ باتجاهات سوق الأسهم."
+                    },
+                    "de": {
+                        "title": "Deep-Learning-Modell zur Vorhersage von Aktienbewegungen",
+                        "description": "Entwicklung eines Modells zur Vorhersage von Aktienmarkttrends."
+                    }
+                }
+            },
+            {
+                "id": "project_2",
+                "place": "Personal",
+                "date": "Ongoing",
+                "locales": {
+                    "en": {
+                        "title": "Self-hosted Smart Home",
+                        "description": "Implemented a smart home system with self-hosted solutions."
+                    },
+                    "ar": {
+                        "title": "المنزل الذكي المستضاف ذاتيًا",
+                        "description": "تم تنفيذ نظام المنزل الذكي بحلول مستضافة ذاتيًا."
+                    },
+                    "de": {
+                        "title": "Selbstgehostetes Smart Home",
+                        "description": "Implementierung eines Smart-Home-Systems mit selbstgehosteten Lösungen."
+                    }
+                }
+            }
+        ],
+        "publications": [
+            {
+                "id": "publication_1",
+                "place": "ESWC2025 Demos",
+                "date": "2025",
+                "locales": {
+                    "en": {
+                        "title": "No-Code ML Pipeline Development: Leveraging Knowledge Graphs and Language Models",
+                        "description": "Sarah Sajid, Antonis Klironomos, Evgeny Kharlamov, Frank Hopfgartner, Mohamed Gad-Elrab."
+                    },
+                    "ar": {
+                        "title": "تطوير خط أنابيب ML بدون كود: الاستفادة من الرسوم البيانية المعرفية ونماذج اللغة",
+                        "description": "سارة ساجد، أنطونيس كليرونوموس، يفغيني خارلاموف، فرانك هوفغارتنر، محمد جاد الرب."
+                    },
+                    "de": {
+                        "title": "No-Code ML-Pipeline-Entwicklung: Nutzung von Wissensgraphen und Sprachmodellen",
+                        "description": "Sarah Sajid, Antonis Klironomos, Evgeny Kharlamov, Frank Hopfgartner, Mohamed Gad-Elrab."
+                    }
+                }
+            },
+            {
+                "id": "publication_2",
+                "place": "CIKM2023",
+                "date": "2023",
+                "locales": {
+                    "en": {
+                        "title": "Rule-based Knowledge Graph Completion with Canonical Models",
+                        "description": "Simon Ott, Patrick Betz, Daria Stepanova, Mohamed H Gad-Elrab, Christian Meilicke, Heiner Stuckenschmidt."
+                    },
+                    "ar": {
+                        "title": "إكمال الرسوم البيانية المعرفية المستندة إلى القواعد باستخدام النماذج الكنسية",
+                        "description": "سيمون أوت، باتريك بيتز، داريا ستيبانوفا، محمد جاد الرب، كريستيان ميليك، هاينر ستوكنشميت."
+                    },
+                    "de": {
+                        "title": "Regelbasierte Wissensgraphen-Vervollständigung mit kanonischen Modellen",
+                        "description": "Simon Ott, Patrick Betz, Daria Stepanova, Mohamed H Gad-Elrab, Christian Meilicke, Heiner Stuckenschmidt."
+                    }
+                }
+            },
+            {
+                "id": "publication_3",
+                "place": "RepL4NLP@ACL2022",
+                "date": "2022",
+                "locales": {
+                    "en": {
+                        "title": "A Study on Entity Linking Across Domains: Which Data is Best for Fine-Tuning?",
+                        "description": "Hassan Soliman, Heike Adel, Mohamed H. Gad-Elrab, Dragan Milchevski, Jannik Strötgen."
+                    },
+                    "ar": {
+                        "title": "دراسة حول ربط الكيانات عبر المجالات: أي البيانات هي الأفضل للتدريب الدقيق؟",
+                        "description": "حسن سليمان، هيك أديل، محمد جاد الرب، دراغان ميلشيفسكي، يانيك ستراتجن."
+                    },
+                    "de": {
+                        "title": "Eine Studie zur Entitätsverknüpfung über Domänen hinweg: Welche Daten eignen sich am besten zum Feintuning?",
+                        "description": "Hassan Soliman, Heike Adel, Mohamed H. Gad-Elrab, Dragan Milchevski, Jannik Strötgen."
+                    }
+                }
+            },
+            {
+                "id": "publication_4",
+                "place": "Wiki2022",
+                "date": "2022",
+                "locales": {
+                    "en": {
+                        "title": "Utilizing Language Model Probes for Knowledge Graph Repair",
+                        "description": "Hiba Arnaout, Trung Tran, Daria Stepanova, Mohamed H. Gad-Elrab, Simon Razniewski, Gerhard Weikum."
+                    },
+                    "ar": {
+                        "title": "استخدام مجسات نماذج اللغة لإصلاح الرسوم البيانية المعرفية",
+                        "description": "هيبا أرناؤوط، ترونج تران، داريا ستيبانوفا، محمد جاد الرب، سيمون رازنيفسكي، جيرهارد ويكوم."
+                    },
+                    "de": {
+                        "title": "Verwendung von Sprachmodellsonden zur Reparatur von Wissensgraphen",
+                        "description": "Hiba Arnaout, Trung Tran, Daria Stepanova, Mohamed H. Gad-Elrab, Simon Razniewski, Gerhard Weikum."
+                    }
+                }
+            },
+            {
+                "id": "publication_5",
+                "place": "ISWC2020",
+                "date": "2020",
+                "locales": {
+                    "en": {
+                        "title": "ExCut: Explainable Embedding-based Clustering for Knowledge Graphs",
+                        "description": "Mohamed H. Gad-Elrab, Trung-Kien Tran, Daria Stepanova, Heike Adel, Gerhard Weikum."
+                    },
+                    "ar": {
+                        "title": "ExCut: التجميع القائم على التضمين القابل للتفسير للرسوم البيانية المعرفية",
+                        "description": "محمد جاد الرب، ترونج كين تران، داريا ستيبانوفا، هيك أديل، جيرهارد ويكوم."
+                    },
+                    "de": {
+                        "title": "ExCut: Erklärbares, einbettungsbasiertes Clustering für Wissensgraphen",
+                        "description": "Mohamed H. Gad-Elrab, Trung-Kien Tran, Daria Stepanova, Heike Adel, Gerhard Weikum."
+                    }
+                }
+            },
+            {
+                "id": "publication_6",
+                "place": "WSDM2019",
+                "date": "2019",
+                "locales": {
+                    "en": {
+                        "title": "ExFaKT: Framework for Explaining Facts using Knowledge Graphs and Text",
+                        "description": "Mohamed H. Gad-Elrab, Daria Stepanova, Jacopo Urbani, Gerhard Weikum."
+                    },
+                    "ar": {
+                        "title": "ExFaKT: إطار عمل لشرح الحقائق باستخدام الرسوم البيانية المعرفية والنصوص",
+                        "description": "محمد جاد الرب، داريا ستيبانوفا، جاكوبو أورباني، جيرهارد ويكوم."
+                    },
+                    "de": {
+                        "title": "ExFaKT: Rahmenwerk zur Erklärung von Fakten mit Wissensgraphen und Text",
+                        "description": "Mohamed H. Gad-Elrab, Daria Stepanova, Jacopo Urbani, Gerhard Weikum."
+                    }
+                }
+            },
+            {
+                "id": "publication_7",
+                "place": "ISWC2018",
+                "date": "2018",
+                "locales": {
+                    "en": {
+                        "title": "Rule Learning from Knowledge Graphs Guided by Embedding Models",
+                        "description": "Vinh Thinh Ho, Daria Stepanova, Mohamed H. Gad-Elrab, Evgeny Kharlamov, Gerhard Weikum."
+                    },
+                    "ar": {
+                        "title": "تعلم القواعد من الرسوم البيانية المعرفية الموجهة بواسطة نماذج التضمين",
+                        "description": "فينه ثينه هو، داريا ستيبانوفا، محمد جاد الرب، يفغيني خارلاموف، جيرهارد ويكوم."
+                    },
+                    "de": {
+                        "title": "Regellernen aus Wissensgraphen, geleitet durch Einbettungsmodelle",
+                        "description": "Vinh Thinh Ho, Daria Stepanova, Mohamed H. Gad-Elrab, Evgeny Kharlamov, Gerhard Weikum."
+                    }
+                }
+            },
+            {
+                "id": "publication_8",
+                "place": "ESAIR Workshop, CIKM 2015",
+                "date": "2015",
+                "locales": {
+                    "en": {
+                        "title": "Named Entity Disambiguation for Resource-Poor Languages",
+                        "description": "Mohamed H. Gad-Elrab, Mohamed Amir Yosef, Gerhard Weikum."
+                    },
+                    "ar": {
+                        "title": "إزالة الغموض عن الكيانات المسماة للغات الفقيرة بالموارد",
+                        "description": "محمد جاد الرب، محمد أمير يوسف، جيرهارد ويكوم."
+                    },
+                    "de": {
+                        "title": "Entitätsauflösung für ressourcenarme Sprachen",
+                        "description": "Mohamed H. Gad-Elrab, Mohamed Amir Yosef, Gerhard Weikum."
                     }
                 }
             }
