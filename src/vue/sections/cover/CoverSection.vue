@@ -1,12 +1,14 @@
 <template>
     <SectionTemplate :section-data="props.sectionData">
-        <!-- Search Bar above welcome message -->
-        <div :class="['cover-search-bar', { 'cover-search-bar-scrolled': scrolled }]">
-            <SearchBar :large="!scrolled" />
-        </div>
+      
 
         <!-- Title -->
         <h1 class="cover-title display-1" v-html="coverTitle"/>
+
+        <!-- Search Bar under welcome message -->
+        <div :class="['cover-search-bar', { 'cover-search-bar-scrolled': scrolled }]">
+            <SearchBar :large="!scrolled" />
+        </div>
 
         <!-- Divider -->
         <hr class="solid-divider ms-1 me-1">
@@ -63,7 +65,7 @@ const coverTitle = computed(() => {
     display: flex;
     justify-content: left;
     align-items: left;
-    width: 70vw;   
+    width: 100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
     position: relative;
