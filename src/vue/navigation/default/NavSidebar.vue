@@ -5,7 +5,6 @@
             <!-- Profile Card -->
             <NavProfileCard :profile-data="profileData"
                             :shrink="!navigation.isSidebarExpanded()"/>
-
             <!-- Nav Link List -->
             <ul class="nav-links">
                 <!-- Nav Link -->
@@ -17,14 +16,12 @@
                 </li>
             </ul>
         </div>
-
         <!-- Footer -->
         <div class="nav-sidebar-footer" v-if="profileData">
             <!-- Language Picker -->
             <LanguagePicker :display-language-label="navigation.isSidebarExpanded()"
                             class="language-picker"
                             :class="navigation.isSidebarExpanded() ? '' : 'mb-3'"/>
-
             <!-- Credits -->
             <div class="nav-sidebar-footer-credits text-2 mt-2 pt-1 mb-2 mb-xxl-3">
                 <span v-html="profileData['locales']['credits']"/>
@@ -36,19 +33,32 @@
 <script setup>
 import LanguagePicker from "../../widgets/LanguagePicker.vue"
 import NavProfileCard from "../partials/NavProfileCard.vue"
-import {computed, onMounted} from "vue"
+import {computed, onMounted, ref, onUnmounted} from "vue"
 import {useData} from "/src/composables/data.js"
 import {useNavigation} from "/src/composables/navigation.js"
+import SearchBar from '../../widgets/SearchBar.vue'
 
 const emit = defineEmits(['linkClicked'])
 const data = useData()
 const navigation = useNavigation()
 
+const scrolled = ref(false)
+
+const handleScroll = () => {
+  scrolled.value = window.scrollY > 50
+}
+
 onMounted(() => {
+    window.addEventListener('scroll', handleScroll)
+    handleScroll()
     const canShrink = data.getSettings()['sidebarShrinkingEnabled']
     if(!canShrink) {
         navigation.setSidebarStatus(true)
     }
+})
+
+onUnmounted(() => {
+    window.removeEventListener('scroll', handleScroll)
 })
 
 /**
@@ -216,5 +226,30 @@ li.nav-item {
     @media screen and (max-height: 550px) {
         overflow-y: auto;
     }
+}
+
+.sidebar-search-bar-top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background: rgba(255,255,255,0.95);
+  border-bottom: 1px solid #eee;
+  z-index: 1201;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.sidebar-search-bar-top .search-bar {
+  width: 100vw;
+  max-width: 100vw;
+  border-radius: 0;
+  font-size: 1.2rem;
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+  background: #fff;
 }
 </style>

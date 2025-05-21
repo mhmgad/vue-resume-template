@@ -1,9 +1,8 @@
 <template>
   <input
-    placeholder="Search here"
+    placeholder="Ask AI about Mohamed!" 
     id="searchWidgetTrigger"
     :class="['search-bar', { 'search-bar-large': large }]"
-    @focus="openWidget"
     @click="openWidget"
     readonly
   />

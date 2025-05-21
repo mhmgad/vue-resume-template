@@ -6,7 +6,7 @@
         <h1 class="cover-title display-1" v-html="coverTitle"/>
 
         <!-- Search Bar under welcome message -->
-        <div :class="['cover-search-bar', { 'cover-search-bar-scrolled': scrolled }]">
+        <div v-if="!scrolled" :class="['cover-search-bar', { 'cover-search-bar-scrolled': scrolled }]">
             <SearchBar :large="!scrolled" />
         </div>
 
@@ -79,6 +79,7 @@ const coverTitle = computed(() => {
         border-width: 2px;
         border-radius: 1rem;
         transition: all 0.3s cubic-bezier(.4,2,.6,1);
+        background: #fff;
     }
 }
 
@@ -90,15 +91,14 @@ const coverTitle = computed(() => {
     position: fixed;
     top: 1.2rem;
     right: 2.5rem;
-    width: auto;
     z-index: 1200;
     background: none;
     .search-bar {
         font-size: 1.1rem;
         padding: 0.5rem 1.2rem;
-        width: 220px;
         border-width: 1px;
         border-radius: 1.2rem;
+        background: #fff;
     }
 }
 

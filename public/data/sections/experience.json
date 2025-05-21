@@ -16,68 +16,24 @@
 
     "items": [
         {
-            "id": "experience_item_1",
-            "place": "@link{places.bosch}",
-            "period": ["2024/12", "now"],
-            "locales": {
-                "en": {
-                    "title": "Lead AI Research Engineer",
-                    "description": "Leading the design & development of multi-agent AI systems to optimize internal enterprise workflows. Collaborating with business unit experts to analyze their needs and align them with GenAI technologies. Organizing a focus group for the R&D teams to build competencies in Agentic AI and GraphRAG. Supervising master's and PhD students, contributing to Bosch's publications and patent portfolio.",
-                    "tags": ["AI", "Multi-agent Systems", "GenAI", "Technical Leadership", "GraphRAG"]
-                },
-                "ar": {
-                    "title": "مهندس أبحاث الذكاء الاصطناعي الرئيسي",
-                    "description": "قيادة تصميم وتطوير أنظمة الذكاء الاصطناعي متعددة العوامل لتحسين سير العمل المؤسسي الداخلي. التعاون مع خبراء وحدات الأعمال لتحليل احتياجاتهم ومواءمتها مع تقنيات GenAI. تنظيم مجموعة تركيز لفرق البحث والتطوير لبناء الكفاءات في الذكاء الاصطناعي العاملي وGraphRAG. الإشراف على طلاب الماجستير والدكتوراه، والمساهمة في منشورات ومحفظة براءات اختراع Bosch.",
-                    "tags": ["الذكاء الاصطناعي", "أنظمة متعددة العوامل", "GenAI", "القيادة التقنية", "GraphRAG"]
-                },
-                "de": {
-                    "title": "Leitender KI-Forschungsingenieur",
-                    "description": "Leitung des Designs und der Entwicklung von Multi-Agenten-KI-Systemen zur Optimierung interner Unternehmensabläufe. Zusammenarbeit mit Experten aus den Geschäftseinheiten zur Analyse ihrer Bedürfnisse und Abstimmung mit GenAI-Technologien. Organisation einer Fokusgruppe für die F&E-Teams zum Aufbau von Kompetenzen in Agentic AI und GraphRAG. Betreuung von Master- und Promotionsstudenten, Beitrag zu Boschs Publikationen und Patentportfolio.",
-                    "tags": ["KI", "Multi-Agenten-Systeme", "GenAI", "Technische Führung", "GraphRAG"]
-                }
-            }
-        },
-        {
-            "id": "experience_item_2",
-            "place": "@link{places.bosch}",
-            "period": ["2021/01", "2024/11"],
+            "id": "experience_item_5",
+            "place": "@link{places.atech}",
+            "period": ["2012/07", "2013/09"],
             "locales": {
                 "en": {
                     "title": "Research Engineer",
-                    "description": "Successfully built a portfolio of PoCs, Demonstrations, and services for Neuro-Symbolic AI & NLU. Provisioned and managed cloud infrastructure & tooling to support Neuro-Symbolic AI and LLMs R&D. Led Bosch use-case development within the innovative EU Horizon project: 'Graph Massivizer'.",
-                    "tags": ["AI", "Neuro-Symbolic AI", "NLU", "Cloud Infrastructure", "Graph Massivizer"]
+                    "description": "Researched methods for real-time indoor Augmented Reality experience for mobile devices.",
+                    "tags": ["Augmented Reality", "Mobile Devices"]
                 },
                 "ar": {
                     "title": "مهندس أبحاث",
-                    "description": "بناء محفظة ناجحة من إثباتات المفاهيم والعروض والخدمات للذكاء الاصطناعي العصبي الرمزي ومعالجة اللغة الطبيعية. توفير وإدارة البنية التحتية السحابية والأدوات لدعم أبحاث الذكاء الاصطناعي العصبي الرمزي وLLMs. قيادة تطوير حالات الاستخدام في Bosch ضمن مشروع EU Horizon المبتكر: 'Graph Massivizer'.",
-                    "tags": ["الذكاء الاصطناعي", "الذكاء الاصطناعي العصبي الرمزي", "معالجة اللغة الطبيعية", "البنية التحتية السحابية", "Graph Massivizer"]
+                    "description": "بحث في طرق تجربة الواقع المعزز الداخلي في الوقت الحقيقي للأجهزة المحمولة.",
+                    "tags": ["الواقع المعزز", "الأجهزة المحمولة"]
                 },
                 "de": {
                     "title": "Forschungsingenieur",
-                    "description": "Erfolgreicher Aufbau eines Portfolios von PoCs, Demonstrationen und Dienstleistungen für Neuro-Symbolic AI & NLU. Bereitstellung und Verwaltung von Cloud-Infrastruktur und Werkzeugen zur Unterstützung der Forschung zu Neuro-Symbolic AI und LLMs. Leitung der Bosch-Anwendungsfallentwicklung im Rahmen des innovativen EU Horizon-Projekts: 'Graph Massivizer'.",
-                    "tags": ["KI", "Neuro-Symbolic AI", "NLU", "Cloud-Infrastruktur", "Graph Massivizer"]
-                }
-            }
-        },
-        {
-            "id": "experience_item_3",
-            "place": "@link{places.mpi}",
-            "period": ["2015/04", "2020/12"],
-            "locales": {
-                "en": {
-                    "title": "Research Assistant",
-                    "description": "Research areas: information extraction, knowledge representation, and explainable AI. Tutored several post-graduate courses and co-supervised master thesis students.",
-                    "tags": ["Information Extraction", "Knowledge Representation", "Explainable AI", "Tutoring"]
-                },
-                "ar": {
-                    "title": "مساعد باحث",
-                    "description": "مجالات البحث: استخراج المعلومات، تمثيل المعرفة، والذكاء الاصطناعي القابل للتفسير. تدريس عدة دورات دراسات عليا والإشراف المشترك على طلاب الماجستير.",
-                    "tags": ["استخراج المعلومات", "تمثيل المعرفة", "الذكاء الاصطناعي القابل للتفسير", "التدريس"]
-                },
-                "de": {
-                    "title": "Wissenschaftlicher Assistent",
-                    "description": "Forschungsbereiche: Informationsextraktion, Wissensrepräsentation und erklärbare KI. Betreuung mehrerer postgradualer Kurse und Mitbetreuung von Masterstudenten.",
-                    "tags": ["Informationsextraktion", "Wissensrepräsentation", "Erklärbare KI", "Unterricht"]
+                    "description": "Forschung zu Methoden für Echtzeit-Innenraum-Augmented-Reality-Erlebnisse für mobile Geräte.",
+                    "tags": ["Augmented Reality", "Mobile Geräte"]
                 }
             }
         },
@@ -104,24 +60,68 @@
             }
         },
         {
-            "id": "experience_item_5",
-            "place": "@link{places.atech}",
-            "period": ["2012/07", "2013/09"],
+            "id": "experience_item_3",
+            "place": "@link{places.mpi}",
+            "period": ["2015/04", "2020/12"],
+            "locales": {
+                "en": {
+                    "title": "Research Assistant",
+                    "description": "Research areas: information extraction, knowledge representation, and explainable AI. Tutored several post-graduate courses and co-supervised master thesis students.",
+                    "tags": ["Information Extraction", "Knowledge Representation", "Explainable AI", "Tutoring"]
+                },
+                "ar": {
+                    "title": "مساعد باحث",
+                    "description": "مجالات البحث: استخراج المعلومات، تمثيل المعرفة، والذكاء الاصطناعي القابل للتفسير. تدريس عدة دورات دراسات عليا والإشراف المشترك على طلاب الماجستير.",
+                    "tags": ["استخراج المعلومات", "تمثيل المعرفة", "الذكاء الاصطناعي القابل للتفسير", "التدريس"]
+                },
+                "de": {
+                    "title": "Wissenschaftlicher Assistent",
+                    "description": "Forschungsbereiche: Informationsextraktion, Wissensrepräsentation und erklärbare KI. Betreuung mehrerer postgradualer Kurse und Mitbetreuung von Masterstudenten.",
+                    "tags": ["Informationsextraktion", "Wissensrepräsentation", "Erklärbare KI", "Unterricht"]
+                }
+            }
+        },
+        {
+            "id": "experience_item_2",
+            "place": "@link{places.bosch}",
+            "period": ["2021/01", "2024/11"],
             "locales": {
                 "en": {
                     "title": "Research Engineer",
-                    "description": "Researched methods for real-time indoor Augmented Reality experience for mobile devices.",
-                    "tags": ["Augmented Reality", "Mobile Devices"]
+                    "description": "Successfully built a portfolio of PoCs, Demonstrations, and services for Neuro-Symbolic AI & NLU. Provisioned and managed cloud infrastructure & tooling to support Neuro-Symbolic AI and LLMs R&D. Led Bosch use-case development within the innovative EU Horizon project: 'Graph Massivizer'.",
+                    "tags": ["AI", "Neuro-Symbolic AI", "NLU", "Cloud Infrastructure", "Graph Massivizer"]
                 },
                 "ar": {
                     "title": "مهندس أبحاث",
-                    "description": "بحث في طرق تجربة الواقع المعزز الداخلي في الوقت الحقيقي للأجهزة المحمولة.",
-                    "tags": ["الواقع المعزز", "الأجهزة المحمولة"]
+                    "description": "بناء محفظة ناجحة من إثباتات المفاهيم والعروض والخدمات للذكاء الاصطناعي العصبي الرمزي ومعالجة اللغة الطبيعية. توفير وإدارة البنية التحتية السحابية والأدوات لدعم أبحاث الذكاء الاصطناعي العصبي الرمزي وLLMs. قيادة تطوير حالات الاستخدام في Bosch ضمن مشروع EU Horizon المبتكر: 'Graph Massivizer'.",
+                    "tags": ["الذكاء الاصطناعي", "الذكاء الاصطناعي العصبي الرمزي", "معالجة اللغة الطبيعية", "البنية التحتية السحابية", "Graph Massivizer"]
                 },
                 "de": {
                     "title": "Forschungsingenieur",
-                    "description": "Forschung zu Methoden für Echtzeit-Innenraum-Augmented-Reality-Erlebnisse für mobile Geräte.",
-                    "tags": ["Augmented Reality", "Mobile Geräte"]
+                    "description": "Erfolgreicher Aufbau eines Portfolios von PoCs, Demonstrationen und Dienstleistungen für Neuro-Symbolic AI & NLU. Bereitstellung und Verwaltung von Cloud-Infrastruktur und Werkzeugen zur Unterstützung der Forschung zu Neuro-Symbolic AI und LLMs. Leitung der Bosch-Anwendungsfallentwicklung im Rahmen des innovativen EU Horizon-Projekts: 'Graph Massivizer'.",
+                    "tags": ["KI", "Neuro-Symbolic AI", "NLU", "Cloud-Infrastruktur", "Graph Massivizer"]
+                }
+            }
+        },
+        {
+            "id": "experience_item_1",
+            "place": "@link{places.bosch}",
+            "period": ["2024/12", "now"],
+            "locales": {
+                "en": {
+                    "title": "Lead AI Research Engineer",
+                    "description": "Leading the design & development of multi-agent AI systems to optimize internal enterprise workflows. Collaborating with business unit experts to analyze their needs and align them with GenAI technologies. Organizing a focus group for the R&D teams to build competencies in Agentic AI and GraphRAG. Supervising master's and PhD students, contributing to Bosch's publications and patent portfolio.",
+                    "tags": ["AI", "Multi-agent Systems", "GenAI", "Technical Leadership", "GraphRAG"]
+                },
+                "ar": {
+                    "title": "مهندس أبحاث الذكاء الاصطناعي الرئيسي",
+                    "description": "قيادة تصميم وتطوير أنظمة الذكاء الاصطناعي متعددة العوامل لتحسين سير العمل المؤسسي الداخلي. التعاون مع خبراء وحدات الأعمال لتحليل احتياجاتهم ومواءمتها مع تقنيات GenAI. تنظيم مجموعة تركيز لفرق البحث والتطوير لبناء الكفاءات في الذكاء الاصطناعي العاملي وGraphRAG. الإشراف على طلاب الماجستير والدكتوراه، والمساهمة في منشورات ومحفظة براءات اختراع Bosch.",
+                    "tags": ["الذكاء الاصطناعي", "أنظمة متعددة العوامل", "GenAI", "القيادة التقنية", "GraphRAG"]
+                },
+                "de": {
+                    "title": "Leitender KI-Forschungsingenieur",
+                    "description": "Leitung des Designs und der Entwicklung von Multi-Agenten-KI-Systemen zur Optimierung interner Unternehmensabläufe. Zusammenarbeit mit Experten aus den Geschäftseinheiten zur Analyse ihrer Bedürfnisse und Abstimmung mit GenAI-Technologien. Organisation einer Fokusgruppe für die F&E-Teams zum Aufbau von Kompetenzen in Agentic AI und GraphRAG. Betreuung von Master- und Promotionsstudenten, Beitrag zu Boschs Publikationen und Patentportfolio.",
+                    "tags": ["KI", "Multi-Agenten-Systeme", "GenAI", "Technische Führung", "GraphRAG"]
                 }
             }
         }

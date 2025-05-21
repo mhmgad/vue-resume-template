@@ -1,7 +1,7 @@
 <template>
     <div class="nav-header">
         <!-- Search Bar at the very top (only when scrolled) -->
-        <div v-if="showSearch" class="header-search-bar-top">
+        <div v-if="scrolled" class="header-search-bar-top">
             <SearchBar />
         </div>
 
@@ -28,7 +28,7 @@
 </template>
 
 <script setup>
-import {computed, onMounted, onUnmounted, watch} from "vue"
+import {computed, onMounted, onUnmounted, watch, ref} from "vue"
 import LanguagePicker from "../../widgets/LanguagePicker.vue"
 import NavProfileCard from "../partials/NavProfileCard.vue"
 import {useData} from "../../../composables/data.js"
@@ -45,9 +45,11 @@ const utils = useUtils()
 
 const emit = defineEmits(['linkClicked'])
 
-const props = defineProps({
-  showSearch: Boolean
-})
+const scrolled = ref(false)
+
+const handleScroll = () => {
+  scrolled.value = window.scrollY > 50
+}
 
 /**
  * @type {ComputedRef<Array>}
@@ -63,6 +65,8 @@ const categorySections = computed(() => {
 onMounted(() => {
     window.addEventListener('resize', _update)
     window.addEventListener('scroll', _update)
+    window.addEventListener('scroll', handleScroll)
+    handleScroll()
     _update()
 })
 
@@ -72,6 +76,7 @@ onMounted(() => {
 onUnmounted(() => {
     window.removeEventListener('resize', _update)
     window.removeEventListener('scroll', _update)
+    window.removeEventListener('scroll', handleScroll)
 })
 
 /**
@@ -190,5 +195,6 @@ const _onLinkClicked = (section) => {
   padding-left: 2vw;
   padding-right: 2vw;
   box-sizing: border-box;
+  background: #fff;
 }
 </style>

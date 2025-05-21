@@ -65,7 +65,7 @@
         "lat": 49.2557,
         "lng": 7.0417
       },
-      "logoUrl": "/images/companies/mpi.png"
+      "logoUrl": "/images/places/logo-mpii.png"
     },
     {
       "id": "atech",
@@ -78,8 +78,7 @@
       "coordinates": {
         "lat": 30.0444,
         "lng": 31.2357
-      },
-      "logoUrl": "/images/companies/atech.png"
+      }
     }
   ]
 } 
