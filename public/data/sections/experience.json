@@ -15,8 +15,9 @@
     },
 
     "items": [
+      
         {
-            "id": "experience_item_5",
+            "id": "experience_item_6",
             "place": "@link{places.atech}",
             "period": ["2012/07", "2013/09"],
             "locales": {
@@ -34,6 +35,28 @@
                     "title": "Forschungsingenieur",
                     "description": "Forschung zu Methoden für Echtzeit-Innenraum-Augmented-Reality-Erlebnisse für mobile Geräte.",
                     "tags": ["Augmented Reality", "Mobile Geräte"]
+                }
+            }
+        },
+        {
+            "id": "experience_item_5",
+            "place": "@link{places.robusta}",
+            "period": ["2012/10", "2013/09"],
+            "locales": {
+                "en": {
+                    "title": "Android Developer",
+                    "description": "Developed and maintained Android mobile applications for various clients. Collaborated with designers and backend developers to deliver high-quality mobile solutions.",
+                    "tags": ["Android", "Mobile Apps", "Part-time", "Development"]
+                },
+                "ar": {
+                    "title": "مطور أندرويد ",
+                    "description": "تطوير وصيانة تطبيقات أندرويد لعملاء مختلفين. التعاون مع المصممين ومطوري الواجهة الخلفية لتقديم حلول جوال عالية الجودة.",
+                    "tags": ["أندرويد", "تطبيقات الجوال", "دوام جزئي", "تطوير"]
+                },
+                "de": {
+                    "title": "Android-Entwickler",
+                    "description": "Entwicklung und Wartung von Android-Apps für verschiedene Kunden. Zusammenarbeit mit Designern und Backend-Entwicklern zur Bereitstellung hochwertiger mobiler Lösungen.",
+                    "tags": ["Android", "Mobile Apps", "Teilzeit", "Entwicklung"]
                 }
             }
         },

@@ -46,11 +46,7 @@
         "ar": { "name": "روبرت بوش" },
         "de": { "name": "Robert Bosch GmbH" }
       },
-      "address": "Stuttgart, Germany",
-      "coordinates": {
-        "lat": 48.7758,
-        "lng": 9.1829
-      },
+      "address": "Renningen, Germany",
       "logoUrl": "/images/places/logo-bosch.png"
     },
     {
@@ -61,10 +57,6 @@
         "de": { "name": "Max-Planck-Institut für Informatik" }
       },
       "address": "Saarbrücken, Germany",
-      "coordinates": {
-        "lat": 49.2557,
-        "lng": 7.0417
-      },
       "logoUrl": "/images/places/logo-mpii.png"
     },
     {
@@ -74,11 +66,18 @@
         "ar": { "name": "مجموعة أيه-تك" },
         "de": { "name": "A-tech Group" }
       },
+      "address": "Cairo, Egypt"
+    },
+    {
+      "id": "robusta",
+      "locales": {
+        "en": { "name": "Robusta Studio" },
+        "ar": { "name": "روبوستا ستوديو" },
+        "de": { "name": "Robusta Studio" }
+      },
       "address": "Cairo, Egypt",
-      "coordinates": {
-        "lat": 30.0444,
-        "lng": 31.2357
-      }
+      "logoUrl": "/images/places/logo-robusta.png"
     }
+
   ]
 } 
