@@ -3,9 +3,15 @@
     "profilePictureUrl": "images/pictures/pic.jpg",
 
     "locales": {
-        "en": {
-            "credits": "Forked from <a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a> Vue Template"
-        }
+            "en": {
+                "credits": "Forked from <a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a> Template"
+            },
+            "ar": {
+                "credits": "من عمل <a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a> قالب"
+            },
+            "de": {
+                "credits": "Von <a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a> Template"
+            }
     },
     "contact": {
         "address": {
@@ -25,8 +31,8 @@
 
         "github": {
             "id": "github",
-            "value": "@jonas.einstein.official",
-            "valueShort": "@jonas.einstein.official",
+            "value": "@mhmgad",
+            "valueShort": "@mhmgad",
             "faIcon": "fa-brands fa-github",
             "href": "https://github.com"
         },

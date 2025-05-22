@@ -11,18 +11,6 @@
         "de": {
             "title": "<span class='text-primary'>Fähigkeiten</span> Set",
             "description": "Erkundung der vielfältigen Fähigkeiten, die ich erworben und entwickelt habe:"
-        },
-        "es": {
-            "title": "Conjunto de <span class='text-primary'>Habilidades</span>",
-            "description": "Explorando la diversidad de habilidades que he adquirido y desarrollado:"
-        },
-        "fr": {
-            "title": "Ensemble de <span class='text-primary'>Compétences</span>",
-            "description": "Exploration de la gamme variée de compétences que j'ai acquises et développées:"
-        },
-        "zh": {
-            "title": "<span class='text-primary'>技能</span> 集",
-            "description": "探索我所掌握和发展的多样技能:"
         }
     },
 

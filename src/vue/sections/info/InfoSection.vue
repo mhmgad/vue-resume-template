@@ -1,5 +1,5 @@
 <template>
-    <SectionTemplate :section-data="props.sectionData">
+    <SectionTemplate v-if="props.sectionData && props.sectionData.content && props.sectionData.content.items" :section-data="props.sectionData">
         <div class="info-row row gx-4 gx-xl-5">
             <div v-for="subcategory in props.sectionData['content']['subcategories']" class="col-12 subcategory-col">
                 <!-- Subcategory Title -->
@@ -38,6 +38,8 @@ const data = useData()
 const layout = useLayout()
 const utils = useUtils()
 
+console.log('[InfoSection] sectionData:', props.sectionData)
+
 /**
  * @const
  */
@@ -69,7 +71,8 @@ const _getComponentFor = (subcategory) => {
  * @private
  */
 const _fetchAndParseItemsFor = (subcategory) => {
-    const items = props.sectionData['content']['items'][subcategory['id']]
+    const items = props.sectionData?.content?.items?.[subcategory['id']] || [];
+    console.log(`[InfoSection] Items for subcategory '${subcategory['id']}':`, items)
 
     let colorIdCount = 0
     for(const item of items) {

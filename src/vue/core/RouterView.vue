@@ -34,6 +34,10 @@ const _getSectionComponentByName = (componentName) => {
     console.warn("Couldn't find component with name: " + componentName + ". All section components must be registered on RouterView.vue.")
     return DefaultSection
 }
+
+// Debug: log all sections being rendered
+const sections = data.getSections();
+console.log('[RouterView] Sections:', sections);
 </script>
 
 <style lang="scss" scoped>
