@@ -2,56 +2,72 @@
     "locales": {
         "en": {
             "title": "<span class='text-primary'>Educational</span> Background",
-            "description": "A glimpse into my academic trajectory and accomplishments."
+            "description": "A detailed overview of my academic journey, research, and achievements."
         },
-
-        "es": {
-            "title": "Antecedentes <span class='text-primary'>Educativos</span>",
-            "description": "Un vistazo a mi trayectoria académica y logros."
+        "de": {
+            "title": "<span class='text-primary'>Bildungs</span>weg",
+            "description": "Ein detaillierter Überblick über meinen akademischen Werdegang, meine Forschung und Erfolge."
         },
-
-        "fr": {
-            "title": "Parcours <span class='text-primary'>Éducatif</span>",
-            "description": "Un aperçu de mon parcours académique et de mes réalisations."
-        },
-
-        "zh": {
-            "title": "<span class='text-primary'>教育</span> 背景",
-            "description": "一瞥我的学术轨迹和成就。"
+        "ar": {
+            "title": "<span class='text-primary'>الخلفية</span> التعليمية",
+            "description": "نظرة مفصلة على مسيرتي الأكاديمية وأبحاثي وإنجازاتي."
         }
     },
-
     "items": [
         {
-            "id": "phd_ai",
-            "place": "@link{places.university}",
-            "period": ["2020/09", "2023/12"],
+            "id": "bsc_guc",
+            "place": "@link{places.guc}",
+            "period": ["2007/09", "2012/07"],
             "locales": {
                 "en": {
-                    "title": "Ph.D. in Artificial Intelligence",
-                    "description": "Specialized in multi-agent systems and knowledge graphs. Focused on developing novel approaches for integrating symbolic and neural AI methods. Published research in top-tier AI conferences and journals."
+                    "title": "B.Sc. in Computer Science and Engineering",
+                    "description": "Full scholarship awarded as a top-10 student in the Egyptian Secondary School Certification. Thesis: 'Saliency-based Scene Text Detection'. Supervision: Dr. Faisal Shafait & Prof. Andreas Dengel (DFKI, Germany). 3rd on Computer Science Dean's List, GPA: 0.83/0.7 (A+ with Highest Honors)."
+                },
+                "de": {
+                    "title": "B.Sc. in Informatik und Ingenieurwesen",
+                    "description": "Vollstipendium als einer der Top-10-Absolventen des ägyptischen Abiturs. Bachelorarbeit: 'Saliency-based Scene Text Detection'. Betreuung: Dr. Faisal Shafait & Prof. Andreas Dengel (DFKI, Deutschland). 3. Platz auf der Informatik-Dekanatsliste, Notendurchschnitt: 0,83/0,7 (sehr gut mit höchster Auszeichnung)."
+                },
+                "ar": {
+                    "title": "بكالوريوس في علوم وهندسة الحاسوب",
+                    "description": "منحة كاملة كواحد من أفضل 10 طلاب في الثانوية العامة المصرية. الرسالة: 'اكتشاف النص في المشاهد بناءً على البروز'. إشراف: د. فيصل شفايت والبروفيسور أندرياس دينجل (DFKI، ألمانيا). المركز الثالث في قائمة شرف كلية علوم الحاسوب، المعدل: 0.83/0.7 (امتياز مع مرتبة الشرف العليا)."
                 }
             }
         },
         {
-            "id": "masters_cs",
-            "place": "@link{places.university}",
-            "period": ["2018/09", "2020/08"],
+            "id": "msc_saarland",
+            "place": "@link{places.saarland}",
+            "period": ["2013/10", "2015/09"],
             "locales": {
                 "en": {
-                    "title": "Master's in Computer Science",
-                    "description": "Concentration in Machine Learning and Natural Language Processing. Developed expertise in deep learning architectures and NLP systems."
+                    "title": "M.Sc. in Computer Science",
+                    "description": "Full scholarship from IMPRS-CS. Thesis: 'AIDArabic+: Named-Entity Disambiguation for Arabic Text'. Supervision: Dr. Mohamed Amir Youssef & Prof. Gerhard Weikum. Awarded Günter-Hotz Medal for outstanding academic performance. GPA: 1.1/1 (A with Honors)."
+                },
+                "de": {
+                    "title": "M.Sc. in Informatik",
+                    "description": "Vollstipendium von IMPRS-CS. Masterarbeit: 'AIDArabic+: Named-Entity Disambiguation for Arabic Text'. Betreuung: Dr. Mohamed Amir Youssef & Prof. Gerhard Weikum. Ausgezeichnet mit der Günter-Hotz-Medaille für herausragende akademische Leistungen. Notendurchschnitt: 1,1/1 (sehr gut mit Auszeichnung)."
+                },
+                "ar": {
+                    "title": "ماجستير في علوم الحاسوب",
+                    "description": "منحة كاملة من IMPRS-CS. الرسالة: 'AIDArabic+: تمييز الكيانات المسماة للنصوص العربية'. إشراف: د. محمد أمير يوسف والبروفيسور جيرهارد فيكوم. حائز على ميدالية غونتر-هوتز للأداء الأكاديمي المتميز. المعدل: 1.1/1 (امتياز مع مرتبة الشرف)."
                 }
             }
         },
         {
-            "id": "bachelor_cs",
-            "place": "@link{places.university}",
-            "period": ["2014/09", "2018/08"],
+            "id": "phd_mpi",
+            "place": "@link{places.saarland}",
+            "period": ["2015/10", "2020/12"],
             "locales": {
                 "en": {
-                    "title": "Bachelor's in Computer Science",
-                    "description": "Focus on software engineering and artificial intelligence. Graduated with honors, specializing in intelligent systems and machine learning."
+                    "title": "PhD Candidate in Computer Science",
+                    "description": "Thesis: 'Explainable methods for knowledge graph refinement and exploration via symbolic reasoning'. Supervision: Dr. Daria Stepanova & Prof. Gerhard Weikum."
+                },
+                "de": {
+                    "title": "Doktorand in Informatik",
+                    "description": "Dissertation: 'Erklärbare Methoden zur Verfeinerung und Erkundung von Wissensgraphen mittels symbolischem Schließen'. Betreuung: Dr. Daria Stepanova & Prof. Gerhard Weikum."
+                },
+                "ar": {
+                    "title": "دكتوراه في علوم الحاسوب",
+                    "description": "الأطروحة: 'طرق قابلة للتفسير لتحسين واستكشاف الرسوم البيانية المعرفية عبر الاستدلال الرمزي'. إشراف: د. داريا ستيبانوفا والبروفيسور جيرهارد فيكوم."
                 }
             }
         }

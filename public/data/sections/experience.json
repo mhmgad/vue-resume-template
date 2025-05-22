@@ -15,6 +15,29 @@
     },
 
     "items": [
+        {
+            "id": "bachelor_thesis_guc",
+            "place": "@link{places.dfki}",
+            "period": ["2011/03", "2011/08"],
+            "locales": {
+                "en": {
+                    "title": "Research Intern (Bachelor Thesis)",
+                    "description": "Bachelor Thesis: Saliency-based Scene Text Detection. Developed a method for detecting text in natural scenes based on visual saliency. Supervision: Dr. Faisal Shafait & Prof. Andreas Dengel (DFKI, Germany). Achieved 3rd place on the Computer Science Dean's List.",
+                    "tags": ["Bachelor Thesis", "Scene Text Detection", "Computer Vision", "Saliency"]
+                },
+                "ar": {
+                    "title": "باحث متدرب  (مشروع تخرج البكالوريوس)",
+                    "description": "مشروع تخرج البكالوريوس: اكتشاف النص في المشاهد بناءً على البروز. تطوير طريقة لاكتشاف النصوص في المشاهد الطبيعية بناءً على البروز البصري. إشراف: د. فيصل شفايت والبروفيسور أندرياس دينجل (DFKI، ألمانيا). المركز الثالث في قائمة شرف كلية علوم الحاسوب.",
+                    "tags": ["مشروع تخرج البكالوريوس", "اكتشاف النص", "رؤية حاسوبية", "البروز"]
+                },
+                "de": {
+                    "title": "Forschungspraktikant (Bachelorarbeit)",
+                    "description": "Bachelorarbeit: Saliency-basierte Texterkennung in Szenen. Entwicklung einer Methode zur Erkennung von Text in natürlichen Szenen basierend auf visueller Auffälligkeit. Betreuung: Dr. Faisal Shafait & Prof. Andreas Dengel (DFKI, Deutschland). 3. Platz auf der Informatik-Dekanatsliste.",
+                    "tags": ["Bachelorarbeit", "Texterkennung", "Computer Vision", "Saliency"]
+                }
+            }
+        },
+        
       
         {
             "id": "experience_item_6",
@@ -83,22 +106,45 @@
             }
         },
         {
-            "id": "experience_item_3",
-            "place": "@link{places.mpi}",
-            "period": ["2015/04", "2020/12"],
+            "id": "master_thesis_saarland",
+            "place": "@link{places.mpii}",
+            "period": ["2014/10", "2015/09"],
             "locales": {
                 "en": {
-                    "title": "Research Assistant",
+                    "title": "Research Intern (Master Thesis)",
+                    "description": "Master Thesis: AIDArabic+ - Named-Entity Disambiguation for Arabic Text. Developed a system for named-entity disambiguation in Arabic text. Supervision: Dr. Mohamed Amir Youssef & Prof. Gerhard Weikum. Awarded Günter-Hotz Medal for outstanding academic performance.",
+                    "tags": ["Master Thesis", "Named-Entity Disambiguation", "Arabic NLP", "Award"]
+                },
+                "ar": {
+                    "title": "باحث متدرب (رسالة الماجستير)",
+                    "description": "رسالة الماجستير: AIDArabic+ - تمييز الكيانات المسماة للنصوص العربية. تطوير نظام لتمييز الكيانات المسماة في النصوص العربية. إشراف: د. محمد أمير يوسف والبروفيسور جيرهارد فيكوم. حائز على ميدالية غونتر-هوتز للأداء الأكاديمي المتميز.",
+                    "tags": ["رسالة ماجستير", "تمييز الكيانات المسماة", "معالجة اللغة العربية", "جائزة"]
+                },
+                "de": {
+                    "title": "Forschungspraktikant (Masterarbeit)",
+                    "description": "Masterarbeit: AIDArabic+ - Named-Entity Disambiguation für arabische Texte. Entwicklung eines Systems zur Named-Entity Disambiguation für arabische Texte. Betreuung: Dr. Mohamed Amir Youssef & Prof. Gerhard Weikum. Ausgezeichnet mit der Günter-Hotz-Medaille für herausragende akademische Leistungen.",
+                    "tags": ["Masterarbeit", "Named-Entity Disambiguation", "Arabische NLP", "Auszeichnung"]
+                }
+            }
+        },
+
+        {
+            "id": "experience_item_3",
+            "place": "@link{places.mpii}",
+            "period": ["2015/09", "2020/12"],
+            "locales": {
+                "en": {
+                    "title": "Research Assistant (PhD Candidate)",
                     "description": "Research areas: information extraction, knowledge representation, and explainable AI. Tutored several post-graduate courses and co-supervised master thesis students.",
                     "tags": ["Information Extraction", "Knowledge Representation", "Explainable AI", "Tutoring"]
                 },
                 "ar": {
-                    "title": "مساعد باحث",
+                    "title": "مساعد باحث (طالب دكتوراه)",
                     "description": "مجالات البحث: استخراج المعلومات، تمثيل المعرفة، والذكاء الاصطناعي القابل للتفسير. تدريس عدة دورات دراسات عليا والإشراف المشترك على طلاب الماجستير.",
                     "tags": ["استخراج المعلومات", "تمثيل المعرفة", "الذكاء الاصطناعي القابل للتفسير", "التدريس"]
                 },
                 "de": {
-                    "title": "Wissenschaftlicher Assistent",
+                    "title": "Wissenschaftlicher Assistent (Doktorand)",
                     "description": "Forschungsbereiche: Informationsextraktion, Wissensrepräsentation und erklärbare KI. Betreuung mehrerer postgradualer Kurse und Mitbetreuung von Masterstudenten.",
                     "tags": ["Informationsextraktion", "Wissensrepräsentation", "Erklärbare KI", "Unterricht"]
                 }

@@ -50,7 +50,7 @@
       "logoUrl": "/images/places/logo-bosch.png"
     },
     {
-      "id": "mpi",
+      "id": "mpii",
       "locales": {
         "en": { "name": "Max-Planck-Institut für Informatik" },
         "ar": { "name": "معهد ماكس بلانك للمعلوماتية" },
@@ -77,7 +77,36 @@
       },
       "address": "Cairo, Egypt",
       "logoUrl": "/images/places/logo-robusta.png"
+    },
+    {
+      "id": "dfki",
+      "locales": {
+        "en": { "name": "German Research Center for Artificial Intelligence (DFKI)" },
+        "ar": { "name": "المركز الألماني لأبحاث الذكاء الاصطناعي (DFKI)" },
+        "de": { "name": "Deutsches Forschungszentrum für Künstliche Intelligenz (DFKI)" }
+      },
+      "address": "Kaiserslautern, Germany",
+      "logoUrl": "/images/places/logo-dfki.png"
+    },
+    {
+      "id": "saarland",
+      "locales": {
+        "en": { "name": "Saarland University" },
+        "ar": { "name": "جامعة سارلاند" },
+        "de": { "name": "Universität des Saarlandes" }
+      },
+      "address": "Saarbrücken, Germany",
+      "logoUrl": "/images/places/logo-saarland.png"
+    },
+    {
+      "id": "guc",
+      "locales": {
+        "en": { "name": "German University in Cairo (GUC)" },
+        "ar": { "name": "الجامعة الألمانية بالقاهرة" },
+        "de": { "name": "Deutsche Universität in Kairo (GUC)" }
+      },
+      "address": "Cairo, Egypt",
+      "logoUrl": "/images/places/logo-guc.png"
     }
-
   ]
 } 

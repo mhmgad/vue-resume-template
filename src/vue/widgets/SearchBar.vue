@@ -1,11 +1,14 @@
 <template>
-  <input
-    placeholder="Ask AI about Mohamed!" 
-    id="searchWidgetTrigger"
-    :class="['search-bar', { 'search-bar-large': large }]"
-    @click="openWidget"
-    readonly
-  />
+  <div class="search-bar-container">
+    <img src="/images/icons/gemini-logo.png" alt="Gemini Logo" class="gemini-logo" />
+    <input
+      placeholder="Ask AI about Mohamed!" 
+      id="searchWidgetTrigger"
+      :class="['search-bar', { 'search-bar-large': large }]"
+      @click="openWidget"
+      readonly
+    />
+  </div>
 </template>
 
 <script setup>
@@ -23,19 +26,30 @@ function openWidget() {
 </script>
 
 <style scoped>
-.search-bar {
-  padding: 8px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  font-size: 1.1rem;
-  width: 300px;
+.search-bar-container {
+  display: flex;
+  align-items: left;
+  width: 100%;
   max-width: 90vw;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin: 0 auto;
+}
+.gemini-logo {
+  width: 5%;
+  margin-right: 18px;
+  flex-shrink: 0;
+}
+.search-bar {
+  padding: 18px 16px;
+  border-radius: 8px;
+  border: 1.5px solid #ccc;
+  font-size: 1.5rem;
+  width: 100%;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
   outline: none;
   transition: box-shadow 0.2s;
 }
 .search-bar:focus {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.16);
 }
 .search-bar-large {
   /* The parent .cover-search-bar will control most large styles, but you can add more here if needed */
