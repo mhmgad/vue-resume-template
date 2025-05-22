@@ -1,9 +1,5 @@
 <template>
     <div class="nav-header">
-        <!-- Search Bar at the very top (only when scrolled) -->
-        <div v-if="scrolled" class="header-search-bar-top">
-            <SearchBar />
-        </div>
 
         <!-- Language Picker -->
         <div class="language-picker-container">
@@ -36,7 +32,6 @@ import {useLayout} from "../../../composables/layout.js"
 import {useNavigation} from "../../../composables/navigation.js"
 import {useUtils} from "../../../composables/utils.js"
 import NavPills from "./NavPills.vue"
-import SearchBar from '../../widgets/SearchBar.vue'
 
 const data = useData()
 const layout = useLayout()
@@ -173,25 +168,4 @@ const _onLinkClicked = (section) => {
     transition:none;
 }
 
-.header-search-bar-top {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0.5rem 0 0.5rem 0;
-  background: rgba(255,255,255,0.95);
-  border-bottom: 1px solid #eee;
-  z-index: 1201;
-}
-
-.header-search-bar-top .search-bar {
-  width: 100vw;
-  max-width: 100vw;
-  border-radius: 0;
-  font-size: 1.2rem;
-  padding-left: 2vw;
-  padding-right: 2vw;
-  box-sizing: border-box;
-  background: #fff;
-}
 </style>
