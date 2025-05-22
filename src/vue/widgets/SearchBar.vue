@@ -35,12 +35,13 @@ function openWidget() {
 }
 .gemini-logo {
   width: 5%;
+  height: auto;
   margin-right: 18px;
-  flex-shrink: 0;
+  align-self: center;
 }
 .search-bar {
   padding: 18px 16px;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 1.5px solid #ccc;
   font-size: 1.5rem;
   width: 100%;
@@ -51,7 +52,11 @@ function openWidget() {
 .search-bar:focus {
   box-shadow: 0 8px 32px rgba(0,0,0,0.16);
 }
-.search-bar-large {
-  /* The parent .cover-search-bar will control most large styles, but you can add more here if needed */
+
+@media (max-width: 600px) {
+  .search-bar {
+    padding: 10px 8px;
+    font-size: 1rem;
+  }
 }
 </style> 

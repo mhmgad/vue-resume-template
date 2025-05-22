@@ -182,9 +182,6 @@ const _onLinkClicked = (section) => {
   background: rgba(255,255,255,0.95);
   border-bottom: 1px solid #eee;
   z-index: 1201;
-  position: sticky;
-  top: 0;
-  left: 0;
 }
 
 .header-search-bar-top .search-bar {
